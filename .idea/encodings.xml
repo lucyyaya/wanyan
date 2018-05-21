@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/modules/About/script/About.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/About/style/About.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Home/client/Home.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Home/style/Home.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Login/client/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Login/style/login.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Makeup/script/Makeup.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Makeup/style/Makeup.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/News/script/News.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/News/style/News.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Skin/script/Skin.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/Skin/style/Skin.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tpl/footer.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tpl/header-footer.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tpl/header.html" charset="UTF-8" />
+  </component>
+</project>

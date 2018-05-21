@@ -1,0 +1,125 @@
+
+a{
+    text-decoration: none;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.add:before{
+    content: "";
+    display: table;
+}
+
+/*accordion*/
+.accordion{
+    margin: 0 auto;
+    height: 310px;
+}
+.accordion>.title{
+    background: #fa91a2;
+    border:1px solid #b8cab6;
+    padding:6px;
+    font-size:1em;
+    font-weight:bold;
+    cursor:pointer;
+    font-family: "宋体";
+}
+.accordion>.title:hover{
+    color: lightgreen;
+}
+.accordion>.content{
+    border-left:1px solid #eee;
+    border-right:1px solid #eee;
+}
+.accordion>:last-child{
+    border-bottom:1px solid #eee;
+}
+.content.fade{
+    height:0;
+    opacity:0;
+    overflow:hidden;
+    transition:all .5s linear;
+}
+.content.in{
+    height:200px;
+    opacity:1;
+}
+
+/*热门分类*/
+.hot-category{
+    border: 1px solid pink;
+    margin: 40px auto;
+}
+.hot-category .container{
+    margin-top: 20px;
+}
+.hot-category .row .borderBox{
+    width: auto;
+    border: 1px solid #E6E6E6;
+    display: inline-block;
+    height: 240px;
+}
+.hot-category .row .borderBox:hover{
+    box-shadow: 0px 1px 20px pink;
+}
+.hot-category .row .borderBox:hover .priceBox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    background-color: pink;
+    opacity: .5;
+}
+div.imgContent{
+    text-align: center;
+    transition:all 1s linear;
+}
+div.imgContent:hover{
+    transform: scale(1.1);
+}
+
+p {
+    margin: 0 0;
+}
+/*面膜*/
+div.leftStyle{
+    height: auto;
+    border: 1px solid #e6e6e6;
+}
+.down{
+    padding: 0;
+}
+.down_p1{
+    font-size: 12px;
+}
+.down_p2{
+    font-size: 10px;
+}
+/*化妆水*/
+/*其他*/
+.blink img{
+    width: auto;
+    height: 300px;
+    animation:change1 2s linear infinite;
+    box-sizing: border-box;
+}
+@keyframes change1 {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.desc{
+    text-align: center;
+}
+.footer-info p{
+    margin: 20px 0;
+}

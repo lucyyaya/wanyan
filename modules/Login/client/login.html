@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="modules/Login/style/login.css">
+<div class="wrapper row" style="margin: 0">
+    <div class="cotn_principal col-md-12" >
+        <div class="cont_login col-md-6 col-md-push-3" style="margin-top: 6%;padding: 0">
+            <div class="cont_info_log_sign_up row">
+                <div class="col_md_login col-md-6">
+                    <div class="cont_ba_opcitiy">
+                        <h2>登录</h2>
+                        <p>欢迎登录网站，谢谢！</p>
+                        <button class="btn_login" ng-click="private.goToLogin()">登录</button>
+                    </div>
+                </div>
+                <div class="col_md_sign_up col-md-6">
+                    <div class="cont_ba_opcitiy">
+                        <h2>注册</h2>
+                        <p>欢迎注册，谢谢！</p>
+                        <button class="btn_sign_up" ng-click="private.goToRegister()">注册</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_back_info">
+                <div class="cont_img_back_grey"> <img src="app/style/img/po.jpg" alt="" /> </div>
+            </div>
+            <div class="cont_forms" >
+                <div class="cont_img_back_"> <img src="app/style/img/po.jpg" alt="" /> </div>
+                <div class="cont_form_login"> <a href="#" ng-click="private.closeWindow()" ><i class="fa fa-hand-o-left"></i></a>
+                    <h2>登录</h2>
+                    <input type="text" placeholder="登录名"  ng-model="private.user"/>
+                    <input type="password" placeholder="登录密码" ng-model="private.password"/>
+                    <button class="btn_login" ng-click="private.Login()">登录</button>
+                </div>
+                <div class="cont_form_sign_up"> <a href="#" ng-click="private.closeWindow()"><i class="fa fa-hand-o-left"></i></a>
+                    <h2>注册</h2>
+                    <input type="text" placeholder="登录名" ng-model="private.registerUser"/>
+                    <input type="password" placeholder="登录密码" ng-model="private.registerPwd"/>
+                    <input type="password" placeholder="确认密码" ng-model="private.registerPwdC"/>
+                    <button class="btn_sign_up" ng-click="private.register()">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+

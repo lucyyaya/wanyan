@@ -1,0 +1,19 @@
+{
+    "Simulation" : false ,
+    "SecretKey" : false ,
+    "RequestIP" : "http://192.168.0.197:7001",
+	"Map":{
+         "mapType":"OpenStreetMap"
+     } ,
+    "mapRefreshInterval":3,
+    "UName" : "unknown",
+    "FID" : 1 ,
+    "Company" : {
+        "6" : "East Region (KFK,DAH,KLB)" ,
+        "7" : "Cent'l Region (Al Dhaid)" ,
+        "1" : "Sharjah Taxi" ,
+        "2" : "Citi Taxi" ,
+        "3" : "Union Taxi" ,
+        "4" : "Emirates Taxi"
+    }
+}

@@ -1,0 +1,120 @@
+.header-bg{
+    width: 100%;
+    height: 480px;
+    /*background: url(../app/style/img/header_bg.png) no-repeat center 0;*/
+    /*background-attachment: fixed;*/
+}
+.header-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 48px;
+}
+.header-logo {
+    float: left;
+    height: 28px;
+    margin-top: 10px;
+    color:white;
+    font-size: 20px;
+}
+.header-nav {
+    float: left;
+    padding: 10px 22px 0 20px;
+}
+.header-nav .item {
+    float: left;
+    line-height: 28px;
+    margin-right: 26px;
+    color: rgba(255, 255, 255, .85);
+}
+.header-nav .item-cur, .header-nav .item:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+.header-user {
+    float: right;
+    margin-top: 8px;
+}
+.header-user .quit {
+    border: 1px solid rgba(255, 255, 255, .8);
+    box-sizing: border-box;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.banner {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+}
+.banner .search {
+    margin-top: 40px;
+    position: relative;
+}
+.banner-title {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.banner .search-text {
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgba(255, 255, 255, .8);
+    background-color: rgba(0, 0, 0, .15);
+    float: left;
+    padding: 0 12px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #a9a9a9;
+    font-size: 14px;
+}
+.banner .search-btn {
+    width: 10%;
+    height: 36px;
+    background: url(../app/style/img/icon-search.svg) no-repeat 9px 7px;
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search_icon {
+    background: url(../app/style/img/icon-search.svg) no-repeat;
+}
+.banner .search-hot {
+    line-height: 38px;
+    text-align: center;
+    color: #ddd;
+    padding-top: 40px;
+}
+.carousel-inner  .item img{
+    width: 95.5%;
+    height: 480px;
+    margin-left: 2.3%;
+}
+ol.carousel-indicators li{
+    border-radius: 10px !important;
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+    background: url(../app/style/img/bg_footer.jpg);
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
+    padding: 5px;
+}

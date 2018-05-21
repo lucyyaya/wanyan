@@ -1,0 +1,60 @@
+.mainTitle{
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid pink;
+    padding: 0 12px;
+}
+.videoimg{
+    overflow: hidden;
+    position: relative;
+}
+.scale img {
+    transition: all 0.5s ease-in-out;
+}
+.scale:hover img {
+    transform: scale(1.2);
+    /*transition: all 0.5s ease-in-out;*/
+}
+.playbtn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+.vediotext p{
+    display: inline-block;
+    color: pink;
+    float: left;
+}
+.vediotext span{
+    color: black;
+    font-family: arm, 'Microsoft YaHei', STXihei, SimSun, AppleGothic, verdana, sans-serif;
+}
+.vediotext h3{
+    color: #000;
+    clear: both;
+    font-family: arm, 'Microsoft YaHei', STXihei, SimSun, AppleGothic, verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.more{
+    background: url(img/btn-more.gif) center top no-repeat;
+    width: 100%;
+    display: inline-block;
+    background-size: 64px;
+    height: 66px;
+    margin-top: 20px;
+}
+.display{
+    display: none;
+}
+.pic{
+    display: inline-block;
+    border: 1px solid pink;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px !important;
+}

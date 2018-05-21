@@ -1,0 +1,60 @@
+.item-img{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Img{
+    text-align: center;
+    margin: 0;
+}
+.best01{
+    background: url(img/besttop1.png) no-repeat left top;
+}
+.best02{
+    background: url(img/besttop2.png) no-repeat left top;
+}
+.best03{
+    background: url(img/best-3.png) no-repeat left top;
+}
+.best04{
+    background: url(img/best-4.png) no-repeat left top;
+}
+.best05{
+    background: url(img/best-5.png) no-repeat left top;
+}
+.best06{
+    background: url(img/best-6.png) no-repeat left top;
+}
+.item-content{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item-content a.share{
+    color: black;
+    border: 1px solid pink;
+    padding: 5px;
+}
+.fa{
+    color: pink;
+}
+a.share:hover{
+    background: #f1deff;
+    color: white;
+    border: #E6E6E6;
+}
+a.share:hover .fa{
+    color: white;
+}
+.more{
+    display: inline-block;
+    border: 1px solid pink;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px !important;
+}
+.Img{
+    transition: all 0.5s ease-in-out;
+}
+.Img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}

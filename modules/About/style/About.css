@@ -1,0 +1,25 @@
+.mainTitle{
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid pink;
+    padding: 0 12px;
+}
+.content{
+    position: absolute;
+    display: inline-block;
+    top: 8%;
+    left: 10%;
+}
+.text1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    background: linear-gradient(to bottom, hotpink, lightblue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.text2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    background: linear-gradient(to bottom,lightblue,hotpink);
+    -webkit-background-clip: text;
+    color: transparent;}
